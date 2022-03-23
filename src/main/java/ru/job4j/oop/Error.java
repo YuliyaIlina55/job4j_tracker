@@ -15,7 +15,7 @@ public class Error {
         Error error = new Error();
         error.printInfo();
         Error error1 = new Error(false, 10, "Oк");
-        error1. printInfo();
+        error1.printInfo();
     }
 
     public void printInfo() {
