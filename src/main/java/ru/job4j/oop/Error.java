@@ -11,11 +11,10 @@ public class Error {
         message = "Ошибка";
     }
 
-    public static void main(String[] args) {
-        Error error = new Error();
-        error.printInfo();
-        Error error1 = new Error(false, 10, "Oк");
-        error1.printInfo();
+    public Error(boolean active, int status, String message) {
+        this.active = active;
+        this.status = status;
+        this.message = message;
     }
 
     public void printInfo() {
@@ -24,9 +23,10 @@ public class Error {
         System.out.println(message);
     }
 
-    public Error(boolean active, int status, String message) {
-        this.active = active;
-        this.status = status;
-        this.message = message;
+    public static void main(String[] args) {
+        Error error = new Error();
+        error.printInfo();
+        Error error1 = new Error(false, 10, "Oк");
+        error1.printInfo();
     }
 }
