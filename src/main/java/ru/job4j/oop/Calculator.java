@@ -19,7 +19,7 @@ public class Calculator {
         return f / x;
     }
 
-    public int sumAllOperation() {
+    public int sumAllOperation(int p) {
         return (sum(10) + multiply(5) + minus(16) + divide(6));
     }
 
@@ -35,7 +35,7 @@ public class Calculator {
         int rsl2 = calculator1.divide(6);
         System.out.println(rsl2);
         Calculator calculator2 = new Calculator();
-        int rsl3 = calculator2.sumAllOperation();
+        int rsl3 = calculator2.sumAllOperation(52);
         System.out.println(rsl3);
     }
 }
