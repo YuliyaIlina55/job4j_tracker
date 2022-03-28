@@ -16,8 +16,8 @@ public class PointTest {
     }
 
     @Test
-    public void when000to222then2dot61() {
-        double expected = 2.61;
+    public void when000to222then3dot46() {
+        double expected = 3.46;
         Point a = new Point(0, 0, 0);
         Point b = new Point(2, 2, 2);
         double dist = a.distance3d(b);
