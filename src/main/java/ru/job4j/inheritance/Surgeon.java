@@ -8,8 +8,4 @@ public class Surgeon extends Doctor {
         super(name, surname, education, birthday, experience);
         this.operation = operation;
     }
-
-    public Surgeon(boolean operation) {
-        this.operation = operation;
-    }
 }

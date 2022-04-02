@@ -8,10 +8,4 @@ public class Dentist extends Doctor {
         super(name, surname, education, birthday, experience);
         this.dentalTreatment = dentalTreatment;
     }
-
-    public Dentist(boolean dentalTreatment) {
-        super();
-        this.dentalTreatment = dentalTreatment;
-    }
-
 }

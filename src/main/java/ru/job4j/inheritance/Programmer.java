@@ -8,8 +8,4 @@ public class Programmer extends Engineer {
         super(name, surname, education, birthday, project);
         this.nameProgram = nameProgram;
     }
-
-    public Programmer(String nameProgram) {
-        this.nameProgram = nameProgram;
-    }
 }

@@ -8,8 +8,4 @@ public class Builder extends Engineer {
         super(name, surname, education, birthday, project);
         this.typeOfWork = typeOfWork;
     }
-
-    public Builder(String typeOfWork) {
-        this.typeOfWork = typeOfWork;
-    }
 }
